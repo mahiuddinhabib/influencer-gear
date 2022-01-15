@@ -8,11 +8,11 @@ common style
 h1{
     font-size: 60px;
 }
-h3{
-    font-size: 24px;
-}
 h2{
     font-size: 38px;
+}
+h3{
+    font-size: 24px;
 }
 .button{
     width: 105px;
@@ -20,8 +20,8 @@ h2{
     text-decoration: none;
     font-size: 16px;
     color: white;
-    padding: 5px 10px;
-    border-radius: 15px;
+    padding: 10px 10px;
+    border-radius: 20px;
 }
 
 /*--------
@@ -133,7 +133,9 @@ span:nth-child(2){
  }
 
 .feature-desc a{
+    width: 77px;
     border-radius: 0;
+    margin-top: 20px;
  }
 
  /*------------
@@ -144,8 +146,20 @@ footer{
     flex-direction: column;
     align-items: center;
     background-color: black;
+    margin-top: 100px;
+    padding: 50px;
     color: white;
 }
-footer a{
+footer p{
+    margin-top: 5px;
+}
+footer a {
+    font-size: 25px;
     color: white;
+}
+.footer-icon{
+    width: 190px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
 }
