@@ -1,0 +1,70 @@
+/* ----------
+common style 
+------------*/
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 60px;
+}
+h3{
+    font-size: 24px;
+}
+.button{
+    width: 120px;
+    background-color: cornflowerblue;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+/*--------
+header style
+----------- */
+.up-head{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 150px;
+}
+nav ul{
+    width: 470px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.start{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 150px;
+}
+.start-desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 582px;
+
+}
+.start-text p{
+    width: 505px;
+    margin-bottom:19px;
+}
+.start-img{
+    height: 475px ;
+    width: 475px;
+    background-image: url(images/Circle\ design.svg);
+    background-repeat: no-repeat;
+}
+.start-img img{
+    margin-left: 18px;
+    margin-top: 30.5px;
+    width: 440px;
+}
