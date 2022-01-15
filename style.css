@@ -11,6 +11,9 @@ h1{
 h3{
     font-size: 24px;
 }
+h2{
+    font-size: 38px;
+}
 .button{
     width: 105px;
     background-color: cornflowerblue;
@@ -42,12 +45,12 @@ nav ul a{
     font-weight: bold;
 }
 
-.start{
+.start,.feature{
     display: flex;
     justify-content: space-between;
     margin: 0 150px;
 }
-.start-desc{
+.start-desc,.feature-desc{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -98,10 +101,12 @@ collection style
 .card{
     height: 470px;
     max-width: 330px;
-    border: brown solid 2px;
+    box-shadow: 0px 0px 7px 0.2px rgb(184, 184, 184);
+    border-radius: 7px;
 }
 .card-img img{
     max-width: 300px;
+    margin-top: 14.5px;
     margin-left: 14.5px;
 }
 .card-desc{
@@ -118,3 +123,20 @@ collection style
 span:nth-child(2){
     font-size: 18px;
 }
+
+/*-------------
+ feature style 
+ -------------*/
+
+ .feature-desc{
+    margin-left: 100px;
+ }
+
+ .feature-desc a{
+     border-radius: 0;
+ }
+
+ /*------------
+  footer style 
+  ------------*/
+  
