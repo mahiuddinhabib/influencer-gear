@@ -11,9 +11,7 @@
         display: flex;
         justify-content: space-between;
     }
-    /* nav{
-        display: none;
-    } */
+ 
     h1{
         font-size: 35px;
     }
@@ -38,7 +36,7 @@
         align-items: center;
     }
     .start-text p,.feature-desc p{
-        width: 430px;
+        width: 510px;
         
     }
     .start-img{
