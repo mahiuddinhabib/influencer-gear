@@ -112,7 +112,7 @@ collection style
 .card-desc{
     margin-left: 14.5px;
 }
-.card-desc h3,h2,.rating,p{
+.card-desc h3,h2,.rating,.card-desc p{
     margin-bottom: 10px;
 }
 .rating{
@@ -128,15 +128,24 @@ span:nth-child(2){
  feature style 
  -------------*/
 
- .feature-desc{
+.feature-desc{
     margin-left: 100px;
  }
 
- .feature-desc a{
-     border-radius: 0;
+.feature-desc a{
+    border-radius: 0;
  }
 
  /*------------
   footer style 
   ------------*/
-  
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+footer a{
+    color: white;
+}
