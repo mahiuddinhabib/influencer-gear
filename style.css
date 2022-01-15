@@ -12,7 +12,7 @@ h3{
     font-size: 24px;
 }
 .button{
-    width: 120px;
+    width: 105px;
     background-color: cornflowerblue;
     text-decoration: none;
     font-size: 16px;
@@ -24,6 +24,7 @@ h3{
 /*--------
 header style
 ----------- */
+
 .up-head{
     display: flex;
     justify-content: space-between;
@@ -67,4 +68,53 @@ nav ul a{
     margin-left: 18px;
     margin-top: 30.5px;
     width: 440px;
+}
+
+/* -------------
+collection style
+---------------- */
+.collection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 0;
+}
+.collection a{
+    position: relative;
+    right: -465px;
+    top: 30px;
+    text-decoration: none;
+    font-size: 20px;
+    color: blue;
+}
+.card-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 20px;
+    width: 1060px;
+    margin-top: 30px;
+    /* margin: 0 200px; */
+}
+.card{
+    height: 470px;
+    max-width: 330px;
+    border: brown solid 2px;
+}
+.card-img img{
+    max-width: 300px;
+    margin-left: 14.5px;
+}
+.card-desc{
+    margin-left: 14.5px;
+}
+.card-desc h3,h2,.rating,p{
+    margin-bottom: 10px;
+}
+.rating{
+    width: 160px;
+    display: flex;
+    justify-content: space-between;
+}
+span:nth-child(2){
+    font-size: 18px;
 }
