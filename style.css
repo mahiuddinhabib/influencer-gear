@@ -7,12 +7,16 @@ common style
 }
 h1{
     font-size: 60px;
+    font-family: 'Domine', serif;
 }
 h2{
     font-size: 38px;
 }
 h3{
     font-size: 24px;
+}
+p{
+    font-family: 'Libre Baskerville', serif;
 }
 .button{
     width: 105px;
@@ -136,6 +140,9 @@ collection style
     display: flex;
     justify-content: space-between;
 }
+span{
+    color: #FB8200;
+}
 span:nth-child(2){
     font-size: 18px;
 }
@@ -149,9 +156,13 @@ span:nth-child(2){
  }
 
 .feature-desc a{
-    width: 77px;
+    width: 127px;
     border-radius: 0;
     margin-top: 20px;
+ }
+ .feature-img img{
+     width: 405px;
+     border-radius: 5px;
  }
 
  /*------------
